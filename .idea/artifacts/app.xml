@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="app">
+    <output-path>$PROJECT_DIR$/out/artifacts/app</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Notes" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jakarta.mvc:jakarta.mvc-api:2.0.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Notes/web/Web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+    </root>
+  </artifact>
+</component>
