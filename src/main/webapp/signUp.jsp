@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Notes - Login</title>
+    <title>Notes - Sign Up</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -60,16 +60,6 @@
             font-weight: 500;
         }
 
-        input[type="text"] {
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0);
-            padding: 15px 0;
-            font-size: 18px;
-            font-weight: 200;
-            cursor: pointer;
-            text-align: center;
-        }
-
         input {
             display: block;
             height: 50px;
@@ -94,11 +84,10 @@
             font-size: 18px;
             font-weight: 200;
             cursor: pointer;
+            margin: 5px;
         }
 
-
-
-        .button_login {
+        .button_signUp {
             background-color: #ffffff;
             border-radius: 50px;
             color: #080710;
@@ -124,9 +113,6 @@
         }
 
         @media (max-width: 1400px) {
-            input[type="text"] {
-                font-size: 30px;
-            }
 
             .bgimg {
                 background-image: url("https://i.pinimg.com/736x/34/73/0c/34730ca7f947e9906296a860b3911792.jpg");
@@ -154,7 +140,7 @@
                 font-size: 30px;
             }
 
-            .button_login {
+            .button_signUp {
                 font-size: 30px;
             }
         }
@@ -163,24 +149,20 @@
 <body>
 <div class="bgimg">
     <form>
-        <a href="${pageContext.request.contextPath}">
+        <a href="${pageContext.request.contextPath}/login.jsp">
             <i class="fa fa-angle-left"></i>
         </a>
-        <h3>Login</h3>
+        <h3>Sign Up</h3>
 
         <label for="email">E-mail</label>
         <input type="email" placeholder="E-mail" id="email">
 
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password">
-
+        <label for="ConfirmPassword">Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" id="ConfirmPassword">
         <div class="buttons">
-            <button class="button_login" type="submit"><i class="fa fa-user"></i> Sign In</button>
-            <a href="${pageContext.request.contextPath}/signUp.jsp">
-                <label>
-                    <input class="button" type="text" placeholder="Sign Up" />
-                </label>
-            </a>
+            <button class="button_signUp"><i class="fa fa-user"></i> Sign Up</button>
         </div>
     </form>
 </div>
