@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9746de88-5a7e-4af0-9ac0-72848c58f27d" name="Changes" comment="config: workspace.xml setup">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9746de88-5a7e-4af0-9ac0-72848c58f27d" name="Changes" comment="docs: update README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +196,7 @@
       <workItem from="1704578123547" duration="1191000" />
       <workItem from="1704579340509" duration="3385000" />
       <workItem from="1704582881287" duration="10868000" />
-      <workItem from="1704638991277" duration="3753000" />
+      <workItem from="1704638991277" duration="4054000" />
     </task>
     <task id="LOCAL-00001" summary="style: setup">
       <option name="closed" value="true" />
@@ -313,7 +310,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704648173405</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="docs: add README.md">
+      <option name="closed" value="true" />
+      <created>1704650040452</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704650040452</updated>
+    </task>
+    <task id="LOCAL-00016" summary="config: workspace.xml setup">
+      <option name="closed" value="true" />
+      <created>1704650063300</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704650063300</updated>
+    </task>
+    <task id="LOCAL-00017" summary="docs: update README.md">
+      <option name="closed" value="true" />
+      <created>1704650171556</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704650171556</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +363,9 @@
     <MESSAGE value="feat: add GitHub link and change the background breakpoint" />
     <MESSAGE value="feat: add servlet submission at login.jsp" />
     <MESSAGE value="feat: add servlet submission at signUp.jsp" />
+    <MESSAGE value="docs: add README.md" />
     <MESSAGE value="config: workspace.xml setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="config: workspace.xml setup" />
+    <MESSAGE value="docs: update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update README.md" />
   </component>
 </project>

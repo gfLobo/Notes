@@ -1,7 +1,7 @@
 # Notes
 
 Este projeto é uma continuação do projeto [ApiNotes](https://github.com/gfLobo/ApiNotes), adicionando uma interface front-end. A aplicação é construída usando Java e Maven.
-
+![HomePage.png](docs/images/HomePage.png)
 ## Arquitetura e Design
 
 A arquitetura do projeto segue os princípios de SOLID e Design Orientado ao Domínio (DDD).
