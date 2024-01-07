@@ -9,18 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9746de88-5a7e-4af0-9ac0-72848c58f27d" name="Changes" comment="style: setup">
+    <list default="true" id="9746de88-5a7e-4af0-9ac0-72848c58f27d" name="Changes" comment="feat: add IApiConnection and ApiConnectionService">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/contexts/authentication/enums/AuthenticationOperation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/contexts/authentication/servlets/LoginServlet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/contexts/authentication/servlets/SignUpServlet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/repositories/IAuthentication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/services/AuthenticationService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/application/enums/HttpMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/application/repositories/IApiConnection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/application/repositories/IPropertiesConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/application/services/ApiConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/application/services/PropertiesConfigurationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/appsettings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/HelloServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
@@ -195,7 +191,7 @@
       <workItem from="1704578123547" duration="1191000" />
       <workItem from="1704579340509" duration="3385000" />
       <workItem from="1704582881287" duration="10868000" />
-      <workItem from="1704638991277" duration="135000" />
+      <workItem from="1704638991277" duration="1002000" />
     </task>
     <task id="LOCAL-00001" summary="style: setup">
       <option name="closed" value="true" />
@@ -205,7 +201,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704639066118</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="env: add appsettings">
+      <option name="closed" value="true" />
+      <created>1704646338758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704646338758</updated>
+    </task>
+    <task id="LOCAL-00003" summary="config: workspace.xml setup">
+      <option name="closed" value="true" />
+      <created>1704646459947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704646459947</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add IApiConnection and ApiConnectionService">
+      <option name="closed" value="true" />
+      <created>1704646516368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704646516368</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +233,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="style: setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: setup" />
+    <MESSAGE value="env: add appsettings" />
+    <MESSAGE value="config: workspace.xml setup" />
+    <MESSAGE value="feat: add IApiConnection and ApiConnectionService" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add IApiConnection and ApiConnectionService" />
   </component>
 </project>
