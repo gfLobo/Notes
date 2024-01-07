@@ -29,7 +29,7 @@
             padding: 16px;
         }
 
-        @media (max-width: 1400px) {
+        @media (max-width: 1300px) {
             .backgroundImage {
                 background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/564x/aa/d3/c7/aad3c700dd6a1402ab40a8bc6c3cf258.jpg");
             }
@@ -82,7 +82,7 @@
               class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn
             more and start today</a></p>
     </div>
-    <a href="https://github.com/gfLobo" class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px;cursor: pointer">
+    <a href="https://github.com/gfLobo/Notes" class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px;cursor: pointer">
         <i class="fa fa-github" style="font-size:24px"></i>
     </a>
 </header>
