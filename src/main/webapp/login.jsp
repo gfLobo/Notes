@@ -123,7 +123,7 @@
             cursor: pointer;
         }
 
-        @media (max-width: 1400px) {
+        @media (max-width: 1300px) {
             input[type="text"] {
                 font-size: 30px;
             }
@@ -162,17 +162,17 @@
 </head>
 <body>
 <div class="bgimg">
-    <form>
+    <form action="${pageContext.request.contextPath}/api/authentication/login" method="post">
         <a href="${pageContext.request.contextPath}">
             <i class="fa fa-angle-left"></i>
         </a>
         <h3>Login</h3>
 
         <label for="email">E-mail</label>
-        <input type="email" placeholder="E-mail" id="email">
+        <input type="email" required placeholder="E-mail" id="email" name="email">
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" required placeholder="Password" id="password" name="password">
 
         <div class="buttons">
             <button class="button_login" type="submit"><i class="fa fa-user"></i> Sign In</button>
