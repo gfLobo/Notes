@@ -1,6 +1,6 @@
 # Notes
 
-Este projeto é uma continuação do projeto [ApiNotes](https://github.com/gfLobo/ApiNotes), estendendo sua funcionalidade e melhorando sua arquitetura. A aplicação é construída usando Java e Maven.
+Este projeto é uma continuação do projeto [ApiNotes](https://github.com/gfLobo/ApiNotes), adicionando uma interface front-end. A aplicação é construída usando Java e Maven.
 
 ## Arquitetura e Design
 
