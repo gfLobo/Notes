@@ -1,3 +1,4 @@
+<%@ page import="java.util.Objects" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -112,7 +113,7 @@
             cursor: pointer;
         }
 
-        @media (max-width: 1400px) {
+        @media (max-width: 1300px) {
 
             .bgimg {
                 background-image: url("https://i.pinimg.com/736x/34/73/0c/34730ca7f947e9906296a860b3911792.jpg");
@@ -148,23 +149,47 @@
 </head>
 <body>
 <div class="bgimg">
-    <form>
+    <form action="${pageContext.request.contextPath}/api/authentication/signup" method="post">
         <a href="${pageContext.request.contextPath}/login.jsp">
             <i class="fa fa-angle-left"></i>
         </a>
         <h3>Sign Up</h3>
 
         <label for="email">E-mail</label>
-        <input type="email" placeholder="E-mail" id="email">
+        <input type="email" placeholder="E-mail" id="email" name="email" required="required">
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Password" id="password" name="password" required="required">
         <label for="ConfirmPassword">Confirm Password</label>
-        <input type="password" placeholder="Confirm Password" id="ConfirmPassword">
+        <input type="password" placeholder="Confirm Password" id="ConfirmPassword" required="required">
         <div class="buttons">
-            <button class="button_signUp"><i class="fa fa-user"></i> Sign Up</button>
+            <button class="button_signUp" type="submit"><i class="fa fa-user"></i> Sign Up</button>
         </div>
     </form>
 </div>
+<%
+    String message = (String) request.getAttribute("message");
+    if (!Objects.isNull(message)) {
+%>
+<script>
+    alert('<%= message %>');
+</script>
+<%
+    }
+%>
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        const confirmPassword = document.getElementById('ConfirmPassword').value;
+        if (email === '' || password === '') {
+            event.preventDefault();
+            alert('All fields are required.');
+        } else if (password !== confirmPassword) {
+            event.preventDefault();
+            alert('Passwords do not match.');
+        }
+    });
+</script>
 </body>
 </html>
