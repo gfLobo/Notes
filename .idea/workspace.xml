@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9746de88-5a7e-4af0-9ac0-72848c58f27d" name="Changes" comment="feat: add IApiConnection and ApiConnectionService">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/contexts/authentication/enums/AuthenticationOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/contexts/authentication/servlets/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/contexts/authentication/servlets/SignUpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/repositories/IAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/api/services/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/application/enums/HttpMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/application/repositories/IPropertiesConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gflobo/notes/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/signUp.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="9746de88-5a7e-4af0-9ac0-72848c58f27d" name="Changes" comment="config: workspace.xml setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +30,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gfLobo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6d9dbe46-4f0d-4b33-9f5f-e93b86633dc5" />
+        <option name="url" value="https://github.com/gfLobo/Notes.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -191,7 +193,7 @@
       <workItem from="1704578123547" duration="1191000" />
       <workItem from="1704579340509" duration="3385000" />
       <workItem from="1704582881287" duration="10868000" />
-      <workItem from="1704638991277" duration="1002000" />
+      <workItem from="1704638991277" duration="1601000" />
     </task>
     <task id="LOCAL-00001" summary="style: setup">
       <option name="closed" value="true" />
@@ -225,17 +227,108 @@
       <option name="project" value="LOCAL" />
       <updated>1704646516368</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: remove HelloServlet.java">
+      <option name="closed" value="true" />
+      <created>1704647190151</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647190151</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add enums HttpMethod and AuthenticationOperation">
+      <option name="closed" value="true" />
+      <created>1704647256194</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647256194</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add IPropertiesConfiguration">
+      <option name="closed" value="true" />
+      <created>1704647282019</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647282019</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add AuthenticationService and IAuthentication">
+      <option name="closed" value="true" />
+      <created>1704647314698</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647314698</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add LoginServlet and SignUpServlet">
+      <option name="closed" value="true" />
+      <created>1704647377029</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647377029</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: add GitHub link and change the background breakpoint">
+      <option name="closed" value="true" />
+      <created>1704647485062</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647485062</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add servlet submission at login.jsp">
+      <option name="closed" value="true" />
+      <created>1704647528545</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647528545</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add servlet submission at signUp.jsp">
+      <option name="closed" value="true" />
+      <created>1704647539283</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647539283</updated>
+    </task>
+    <task id="LOCAL-00013" summary="config: workspace.xml setup">
+      <option name="closed" value="true" />
+      <created>1704647563877</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647563877</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="style: setup" />
     <MESSAGE value="env: add appsettings" />
-    <MESSAGE value="config: workspace.xml setup" />
     <MESSAGE value="feat: add IApiConnection and ApiConnectionService" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add IApiConnection and ApiConnectionService" />
+    <MESSAGE value="feat: remove HelloServlet.java" />
+    <MESSAGE value="feat: add enums HttpMethod and AuthenticationOperation" />
+    <MESSAGE value="feat: add IPropertiesConfiguration" />
+    <MESSAGE value="feat: add AuthenticationService and IAuthentication" />
+    <MESSAGE value="feat: add LoginServlet and SignUpServlet" />
+    <MESSAGE value="feat: add GitHub link and change the background breakpoint" />
+    <MESSAGE value="feat: add servlet submission at login.jsp" />
+    <MESSAGE value="feat: add servlet submission at signUp.jsp" />
+    <MESSAGE value="config: workspace.xml setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="config: workspace.xml setup" />
   </component>
 </project>
